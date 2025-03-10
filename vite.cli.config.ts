@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import { resolve } from 'path';
+import { resolve } from 'node:path';
 import { externalizeDeps } from 'vite-plugin-externalize-deps'
 import { name as packageName } from './package.json';
 
