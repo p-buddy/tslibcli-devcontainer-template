@@ -1,11 +1,12 @@
 {
 	"name": "...",
 	"type": "module",
-	"private": true,
+	"private": false,
 	"version": "0.0.0",
 	"main": "src/index.ts",
 	"bin": "src/cli.ts",
 	"publishConfig": {
+		"access": "public",
 		"main": "./dist/index.js",
 		"typings": "./dist/index.d.ts",
 		"bin": "./dist/cli.js",
