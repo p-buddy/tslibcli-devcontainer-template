@@ -12,7 +12,6 @@ npx degit github:p-buddy/tslibcli-devcontainer-template
 
 - [ ] Replace `...`s in [.devcontainer/devcontainer.json](./.devcontainer/devcontainer.json)
 - [ ] Replace `...`s in [package.json](./package.json)
-  - [ ] **_If publishing publicly to the npm registry_**: Set `private` to `false` 
 
 ## License
 
